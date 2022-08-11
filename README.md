@@ -75,7 +75,7 @@ O objetivo deste desafio é que você escreva primeiro os testes e depois desenv
 <h3>Desafio Extra</h3>
 Refatoração dos testes e do projeto. Tem alguns fatores que podem ser melhorados nos testes e no projeto. Desta forma, você como desenvolvedor deve ter um olhar crítico e levar em consideração as boas práticas de Clean Code e refatorar o projeto. Segue alguns exemplos a serem refatorados: 
 <ul>
-	<li>Classes de teste: Nome dos testes, utilização da anotação @DisplayName, substituição dos try/catch por assertThrows e entre outros. </li>
+	<li>Classes de teste: Nomenclatura dos testes, utilização da anotação <code>@DisplayName</code>, substituição dos try/catch por <code>assertThrows</code> e entre outros. </li>
 <li>Classe main: Nome do enum em maiúsculo, criação de Exceções específicas (IngredienteNotFoundException, por exemplo), utilização do modificador <code>final</code> e entre outros. </li>
 </ul>
 Além disso, implementar testes parametrizados nas classes de teste.
