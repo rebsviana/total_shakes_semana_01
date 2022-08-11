@@ -70,14 +70,15 @@ No mesmo projeto que foi desenvolvido na semana 1, você irá criar uma nova bra
 </ul>
 
 <h3>Atenção</h3>
-A ideia desse desafio é que você escreva primeiro os testes e depois desenvolva a classe. Uma dica que pode ajudar é escrever os cenários de testes antes de colocar a mão na massa.
+O objetivo deste desafio é que você escreva primeiro os testes e depois desenvolva a classe (caso tiver dificuldade, escrever os cenários de testes pode ajudar no desenvolvimento).
 
 <h3>Desafio Extra</h3>
-Refatoração dos testes e do projeto. Tem alguns fatores que podem ser melhorados nos testes e no projeto. Desta forma, você como desenvolvedor deve ter um olhar crítico e levar em consideração as boas práticas de Clean Code e refator o projeto. Segue alguns exemplos a serem refatorados: 
+Refatoração dos testes e do projeto. Tem alguns fatores que podem ser melhorados nos testes e no projeto. Desta forma, você como desenvolvedor deve ter um olhar crítico e levar em consideração as boas práticas de Clean Code e refatorar o projeto. Segue alguns exemplos a serem refatorados: 
 <ul>
 	<li>Classes de teste: Nome dos testes, utilização da anotação @DisplayName, substituição dos try/catch por assertThrows e entre outros. </li>
-<li>Classe main: Nome do enum em maiusculo, criação de Exceções específicas (IngredienteNotFoundException) e entre outros. </li>
+<li>Classe main: Nome do enum em maiúsculo, criação de Exceções específicas (IngredienteNotFoundException, por exemplo), utilização do modificador <code>final</code> e entre outros. </li>
 </ul>
+Além disso, implementar testes parametrizados nas classes de teste.
 
 
 <h3>Links de apoio</h3>
