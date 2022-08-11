@@ -86,8 +86,12 @@ Refatoração dos testes e do projeto. Tem alguns fatores que podem ser melhorad
 	<li>Clean Code in Java: https://www.baeldung.com/java-clean-code </li>
             <li>JUnit 5 Expected Exception: https://howtodoinjava.com/junit5/expected-exception-example/
 </li>
-<li>TDD Best Practices: https://xperti.io/blogs/test-driven-development-java/
-https://technologyconversations.com/2013/12/24/test-driven-development-tdd-best-practices-using-java-examples-2/</li>
+<li>TDD Best Practices: 
+<ul>
+<li>https://xperti.io/blogs/test-driven-development-java/</li>
+<li>https://technologyconversations.com/2013/12/24/test-driven-development-tdd-best-practices-using-java-examples-2/</li>
+</ul>
+</li>
 <li>Best Practices For Unit Testing: https://www.baeldung.com/java-unit-testing-best-practices/</li>
 
 </ul>
