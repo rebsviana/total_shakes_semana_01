@@ -20,8 +20,8 @@ No mesmo projeto que foi desenvolvido na semana 1, você irá criar uma nova bra
 
 <h3>Criar uma classe Armazém que irá armazenar os Ingredientes e a quantidade de Ingrediente</h3>
 <ul>
-    <li>A classe deve ter um atributo private TreeMap&lt;Ingrediente, Integer&gt; chamado estoque</li>
-    <li>Criar um package chamado armazem e criar a classe Armazem dentro deste package</li>
+    <li>A classe deve ter um atributo private TreeMap&lt;Ingrediente, Integer&gt; chamado estoque.</li>
+    <li>Criar um package chamado armazem e criar a classe Armazem dentro deste package.</li>
 </ul>
 
 <h3>Criar um TDD para os seguintes métodos dessa classe:</h3>
@@ -59,6 +59,7 @@ No mesmo projeto que foi desenvolvido na semana 1, você irá criar uma nova bra
             <li> Regra: Deve ser subtraído a quantidade solicitada do ingrediente a quantidade que estava no estoque. Caso a quantidade a ser removida seja a mesma da quantidade em estoque, o ingrediente deve ser excluído do estoque.</li>
             <li> Exception: Caso o ingrediente não exista no estoque deve retornar IllegalArgumentException com a seguinte mensagem de erro: “Ingrediente não encontrado” e caso a quantidade que foi passada para ser excluida for menor ou igual a zero e a quantidade em estoque seja insuficiente para ser removida retornar um IllegalArgumentException com a seguinte mensagem de erro: “Quantidade invalida”.</li>
          </ul>
+	</ul>
     <ul><br>
         <li><code>public Integer consultarQuantidadeDoIngredienteEmEstoque(Ingrediente ingrediente)</code></li>
         <ul>
